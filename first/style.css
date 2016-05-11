@@ -1,0 +1,68 @@
+.header-squares {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  justify-content: space-around;
+}
+.top-square {
+  height: 30vh;
+  width: 25vw;
+}
+#red {
+  background: red;
+}
+#blue {
+  background: blue;
+}
+#grey {
+  background: grey;
+}
+.main-text {
+  text-align: justify;
+  padding: 0 5vw;
+}
+.main-text p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: gray;
+}
+.second-row-squares {
+  width: 94%;
+  height: 50vh;
+  margin: 0 auto;
+  display:flex;
+  justify-content:center;
+}
+.second-row-left {
+  height: 45vh;
+  width: 25%;
+  /*float: left;*/
+}
+.second-row-right {
+  height: 45vh;
+  width: 75%;
+  /*float: left;*/
+}
+.third-row-squares {
+  width: 94%;
+  height: 30vh;
+  margin: 0 auto;
+  display:flex;
+  justify-content:center;
+}
+.third-row-one {
+  width: 70%;
+  height: 25vh;
+}
+.third-row-two {
+  width: 5%;
+  height: 25vh;
+}
+.third-row-three {
+  width: 20%;
+  height: 25vh;
+}
+.third-row-four {
+  width: 5%;
+  height: 25vh;
+}
